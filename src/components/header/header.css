@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
+
+.Header{
+    display:flex;
+    justify-content: center;
+    height:80px;
+    position:relative;
+    
+}
+
+.Header.active{
+    width:100%;
+    position:fixed;
+    z-index:123;
+    background-color: white;
+    animation-name: headeranimate;
+    animation-duration: 1s; 
+}
+
+@keyframes headeranimate {
+    from {top:-80px; opacity:0.1}
+    to {top:0px; opacity:1}
+  }
+
+.Header-content{
+    box-sizing:border-box;
+    padding:0px 20px;
+    
+}
+
+
+.Header-content{
+    flex:1;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    max-width:1200px;
+    background-color:transparent ;
+}
+
+.nav-bar, .sideNav{
+    height:100%;
+    display:flex;
+}
+
+
+
+.nav-bar__items{
+    flex:1;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    text-transform: capitalize;
+    gap:0px 20px;
+    
+}
+
+.nav-bar__item, .nav-item__dropDown{
+
+font-size:16px;
+font-weight:400;
+line-height:16px;
+
+cursor: pointer;
+height: 100%;
+display:flex;
+justify-content: center;
+align-items: center;
+position:relative;
+}
+
+.nav-item__header{
+    display:flex;
+    justify-content: space-between;
+    gap:0px 5px;
+    cursor: pointer;
+}
+.header-icons{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    
+}
+
+.header-icons > *{
+cursor: pointer;
+height:20px;
+width:20px;
+}
+
+.nav-item__options{
+    display:none;
+    border-radius: 5px;
+    box-sizing:border-box;
+    padding:15px;
+    font-size: 14px;
+    background-color: rgb(176, 142, 173);
+    width:max-content;
+}
+
+.nav-item__option{
+    text-transform: capitalize;
+    font-family: 'Rubik', sans-serif;
+    font-weight:400;
+    color:white;
+    white-space: nowrap;
+}
+
+.nav-item__options.active{
+    display: block;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    
+
+    top: 80px;
+    left:-15px;
+    box-sizing:border-box;
+    animation-name: navAnimation;
+    animation-duration: 0.5s; 
+    transform-origin: center top;
+}
+
+@keyframes navAnimation {
+    from {transform: scaleY(0)}
+    to {transform: scaleY(1)}
+  }
+
+.burger-icon{
+    display:none;
+    width:20px;
+    height:20px;
+}
+
+.offcanvas-nav{
+    width:230px;
+}
+
+@media(max-width:992px){
+    .nav-bar{
+        display:none;
+    }
+    .sideNav{
+        display:block;
+    }
+
+    .nav-bar__items{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .nav-item__dropDown{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        
+    }
+
+    .nav-item__options.active{
+        position:relative;
+        top:0px;
+        align-items: flex-start;
+        
+    }
+
+    .burger-icon{
+        display:block;
+    }
+
+    .logo{
+        width:140px;
+    }
+    .logo img{
+        width:100%;
+    }
+}  
+
+.header-searchSlider{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -50px;
+    height: 50px;
+    width: 100%;
+    display:none;
+    
+}
+
+.searchSldier-content{
+    max-width: 1160px;
+    background: #b08ead;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2px 20px;
+    display:flex;
+    align-items: center;
+    
+}
+
+.searchSldier-content input{
+    width:100%;
+    border:none;
+    outline:none;
+    color:white;
+    background-color: transparent;
+    font-family: "Rubik",sans-serif;
+}
+
+.searchSldier-content input::placeholder{
+color:white;
+}
+
+.searchSlider-close{
+    color:white;
+    font-size:23px;
+    cursor:pointer;
+
+}
+
+.searchSlider-active{
+    animation-name: searchSliderAnimation;
+    animation-duration: 0.5s; 
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -50px;
+    height: 50px;
+    width: 100%;
+}
+
+
+
+@keyframes searchSliderAnimation {
+    from {transform: scaleY(0)}
+    to {transform: scaleY(1)}
+  }
