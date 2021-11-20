@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/pillowmart/static/css/main.cf69e05a.chunk.css",
+    "main.js": "/pillowmart/static/js/main.2ca5959c.chunk.js",
+    "main.js.map": "/pillowmart/static/js/main.2ca5959c.chunk.js.map",
+    "runtime-main.js": "/pillowmart/static/js/runtime-main.a328334e.js",
+    "runtime-main.js.map": "/pillowmart/static/js/runtime-main.a328334e.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/pillowmart/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.6a323d82.chunk.js": "/pillowmart/static/js/2.6a323d82.chunk.js",
+    "static/js/2.6a323d82.chunk.js.map": "/pillowmart/static/js/2.6a323d82.chunk.js.map",
+    "static/js/3.d5bbbbfe.chunk.js": "/pillowmart/static/js/3.d5bbbbfe.chunk.js",
+    "static/js/3.d5bbbbfe.chunk.js.map": "/pillowmart/static/js/3.d5bbbbfe.chunk.js.map",
+    "index.html": "/pillowmart/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/pillowmart/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.cf69e05a.chunk.css.map": "/pillowmart/static/css/main.cf69e05a.chunk.css.map",
+    "static/js/2.6a323d82.chunk.js.LICENSE.txt": "/pillowmart/static/js/2.6a323d82.chunk.js.LICENSE.txt",
+    "static/media/client1.b23ca97c.webp": "/pillowmart/static/media/client1.b23ca97c.webp",
+    "static/media/client2.d8b884cd.png": "/pillowmart/static/media/client2.d8b884cd.png",
+    "static/media/client3.8ea547af.webp": "/pillowmart/static/media/client3.8ea547af.webp",
+    "static/media/download (1).b22f3409.webp": "/pillowmart/static/media/download (1).b22f3409.webp",
+    "static/media/download.c517b904.webp": "/pillowmart/static/media/download.c517b904.webp",
+    "static/media/pillow1.71f12e87.webp": "/pillowmart/static/media/pillow1.71f12e87.webp",
+    "static/media/pillow2.741b9419.webp": "/pillowmart/static/media/pillow2.741b9419.webp",
+    "static/media/pillow3.a67ba02f.webp": "/pillowmart/static/media/pillow3.a67ba02f.webp",
+    "static/media/pillow4.e918257f.webp": "/pillowmart/static/media/pillow4.e918257f.webp",
+    "static/media/trend1.6892ebe9.webp": "/pillowmart/static/media/trend1.6892ebe9.webp",
+    "static/media/trend2.9d4aa293.webp": "/pillowmart/static/media/trend2.9d4aa293.webp",
+    "static/media/trend3.d557c1be.webp": "/pillowmart/static/media/trend3.d557c1be.webp",
+    "static/media/trend4.44aff06d.webp": "/pillowmart/static/media/trend4.44aff06d.webp",
+    "static/media/trend5.81f079fc.webp": "/pillowmart/static/media/trend5.81f079fc.webp",
+    "static/media/trend6.ceba4fee.webp": "/pillowmart/static/media/trend6.ceba4fee.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a328334e.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.6a323d82.chunk.js",
+    "static/css/main.cf69e05a.chunk.css",
+    "static/js/main.2ca5959c.chunk.js"
+  ]
+}
